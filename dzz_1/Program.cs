@@ -24,7 +24,7 @@ class Program
         }
     }
 
-    // ---------- Задание 1 ----------
+    //Задание 1
 
     static void CloseBrowsers()
     {
@@ -44,7 +44,6 @@ class Program
                     }
                     catch
                     {
-                        // если процесс нельзя закрыть
                     }
                 }
             }
@@ -53,7 +52,7 @@ class Program
         }
     }
 
-    // ---------- Задание 2 ----------
+    //Задание 2
 
     static void RunBrowserSearch()
     {
@@ -139,7 +138,6 @@ class Program
             }
             catch
             {
-                // нет доступа к папке
             }
         }
 
